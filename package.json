@@ -1,0 +1,26 @@
+{
+  "name": "@queuebernetes/core",
+  "description": "Core module for long running job queue for Kubernetes",
+  "version": "0.1.6",
+  "author": "Garrick Meeker",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gmeeker/queuebernetes.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "json-stream": "^1.0.0",
+    "kubernetes-client": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "tags": [
+    "kubernetes",
+    "queue"
+  ]
+}
